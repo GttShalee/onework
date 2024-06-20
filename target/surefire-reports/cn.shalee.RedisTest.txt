@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: cn.shalee.RedisTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.229 s <<< FAILURE! -- in cn.shalee.RedisTest
+cn.shalee.RedisTest.testSet -- Time elapsed: 0.487 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.springframework.data.redis.core.StringRedisTemplate.opsForValue()" because "this.stringRedisTemplate" is null
+	at cn.shalee.RedisTest.testSet(RedisTest.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

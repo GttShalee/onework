@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="HomeworkCheck">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.idea/HomeworkCheck.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
